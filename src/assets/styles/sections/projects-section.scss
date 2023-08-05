@@ -222,7 +222,7 @@
         font-size: 30px;
         line-height: 40px;
       }
-      grid-column: 1/12;
+      grid-column: 1/13;
       grid-row: 3/4;
     }
 
@@ -265,6 +265,9 @@
     }
 
     #proj_entertainment {
+      grid-column: 1/12;
+    }
+    #proj_apartments {
       grid-column: 1/12;
     }
 

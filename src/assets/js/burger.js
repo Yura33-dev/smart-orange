@@ -14,6 +14,7 @@ const burgerMenu = (
         .classList.toggle(burgerBtnSelector.slice(1) + '-active');
 
       burgerMenu.classList.toggle(burgerMenuSelector.slice(1) + '-active');
+      document.body.style.overflow = 'hidden';
     }
   };
 
@@ -23,6 +24,7 @@ const burgerMenu = (
         .closest(burgerMenuSelector)
         .classList.toggle(burgerMenuSelector.slice(1) + '-active');
       burgerBtn.classList.toggle(burgerBtnSelector.slice(1) + '-active');
+      document.body.style.overflow = 'visible';
     }
   };
 
