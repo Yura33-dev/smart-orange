@@ -1,0 +1,28 @@
+//libs
+@import url('./libs/_normalize.scss');
+@import url('./libs/_variables.scss');
+@import url('./libs/_fonts.scss');
+
+//components
+@import url('./components/header.scss');
+@import url('./components/footer.scss');
+@import url('./components/buttons.scss');
+
+//sections
+@import url('./sections/promo-section.scss');
+@import url('./sections/about-section.scss');
+@import url('./sections/goals-section.scss');
+@import url('./sections/projects-section.scss');
+@import url('./sections/contacts-section.scss');
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 60px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Hoves';
+  font-display: swap;
+  src: url('/src/assets/fonts/TTHoves-Light.ttf') format('truetype'),
+    url('/src/assets/fonts/TTHoves-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hoves';
+  font-display: swap;
+  src: url('/src/assets/fonts/TTHoves-Regular.ttf') format('truetype'),
+    url('/src/assets/fonts/TTHoves-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hoves';
+  font-display: swap;
+  src: url('/src/assets/fonts/TTHoves-Bold.ttf') format('truetype'),
+    url('/src/assets/fonts/TTHoves-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-family: 'Hoves', sans-serif;
+}

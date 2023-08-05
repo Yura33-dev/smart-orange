@@ -1,0 +1,137 @@
+.btn {
+  &-slider {
+    margin: 0;
+    padding: 0;
+    width: 53px;
+    height: 53px;
+    background-color: var(--accent-light-color);
+    border: 1px solid #f2f2f2;
+    position: relative;
+    z-index: 2;
+    transition: background-color 0.2s;
+
+    &-left {
+      svg {
+        rotate: 180deg;
+      }
+    }
+
+    &-right {
+      margin-left: 22px;
+    }
+
+    &:hover {
+      transition: background-color 0.2s;
+      cursor: pointer;
+      background-color: var(--background-btn);
+    }
+  }
+
+  &-slider-details,
+  &-about,
+  &-allprojects,
+  &-submit {
+    padding: 30px 50px;
+    border: none;
+    transition: background-color 0.2s;
+    background-color: var(--accent-light-color);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    a {
+      color: var(--accent-dark-color);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 12px;
+      letter-spacing: 2.4px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    &:hover {
+      transition: background-color 0.2s;
+      background-color: var(--background-btn);
+    }
+  }
+
+  &-about {
+    padding: 26px 70px;
+    position: static;
+    margin-top: 30px;
+  }
+
+  &-projects {
+    font-family: 'Gothic A1', sans-serif;
+    margin-top: 14px;
+    background: none;
+    border: none;
+
+    color: var(--accent-light-color);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+
+    svg {
+      path {
+        fill: var(--accent-light-color);
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-allprojects {
+    background-color: var(--accent-dark-color);
+    position: static;
+
+    a {
+      color: var(--accent-light-color);
+    }
+
+    svg {
+      path {
+        fill: var(--accent-light-color);
+      }
+    }
+
+    &:hover {
+      background-color: var(--accent-dark-color-hover);
+    }
+  }
+
+  &-submit {
+    background-color: var(--accent-dark-color);
+    position: static;
+    color: var(--accent-light-color);
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+    svg {
+      path {
+        fill: var(--accent-light-color);
+      }
+    }
+
+    &:disabled {
+      background-color: #575757;
+    }
+
+    &:hover {
+      &:enabled {
+        background-color: var(--accent-dark-color-hover);
+        cursor: pointer;
+      }
+    }
+  }
+}
